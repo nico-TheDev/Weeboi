@@ -1,0 +1,36 @@
+@media(max-width:500px){
+    html{
+        font-size: 50%;
+    }
+
+    .nav__icon{
+        display: inline-block;
+    }
+
+    .navbar__list{
+        display: none;
+    }
+
+   
+
+    .header__title{
+        text-align: center;
+    }
+
+    .header__hero > *{
+        flex:0 1 100%;
+        margin-bottom: 6rem;
+        text-align: center;
+    }
+
+    .feature{
+        padding: 1rem;
+        width: 80%;
+    }
+
+    .card-illus{
+        width: 80%;
+        height: 100%;
+    }
+    
+}
